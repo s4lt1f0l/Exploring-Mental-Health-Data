@@ -1,0 +1,54 @@
+# ─── Docs & References (không push) ───────────────────────────
+docs/CSC17104_2025_Final\ Project.pdf
+docs/Group_03_source.ipynb
+docs/Group_03_Source.ipynb
+docs/\303\220\306\241\ án\ th\?1\ c\?1\ ng\ th\?1\ nh\?.pdf
+
+# ─── Reports & deliverables ──────────────────────────────────
+Report_MentalHealthProject.md
+Report_*.md
+*.pdf
+
+# ─── Data outputs (không push data lên repo) ─────────────────
+outputs/
+*.csv
+*.xlsx
+*.pkl
+*.parquet
+
+# ─── Jupyter checkpoints ───────────────────────────────────────
+notebooks/.ipynb_checkpoints/
+
+# ─── Python & Jupyter ─────────────────────────────────────────
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ─── Virtual environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+.env
+
+# ─── OS files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Kaggle ─────────────────────────────────────────────────
+kaggle.json
+*.pth
+model_*.pt
+model_*.h5
+*.onnx
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
