@@ -1,0 +1,51 @@
+# ====================================================================
+# GIỮ CHO GITHUB SẠCH SẼ - KHÔNG PUSH DATA VÀ MODEL SIZE LỚN
+# ====================================================================
+
+# 1. Thư mục Dữ liệu (Tuyệt đối không push file csv, pkl)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.parquet
+*.pkl
+*.npy
+*.zip
+*.tar.gz
+
+# 2. Thư mục Models và Outputs (Không push file Weights nặng)
+outputs/models/*
+outputs/artifacts/*
+!outputs/models/.gitkeep
+!outputs/artifacts/.gitkeep
+catboost_info/
+*.h5
+*.hdf5
+*.joblib
+*.pb
+
+# 3. Môi trường Python và Logs
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+*.log
+*.sqlite
+*.db
+
+# 4. Jupyter Notebook Checkpoints (Rác ẩn của Editor)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 5. Thư mục Tài liệu (Docs)
+docs/*
+!docs/.gitkeep
+
+# 6. Hệ điều hành
+.DS_Store
+Thumbs.db
+
+Report_MentalHealthProject.md
