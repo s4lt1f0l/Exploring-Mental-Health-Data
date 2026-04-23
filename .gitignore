@@ -15,6 +15,7 @@ outputs/
 *.xlsx
 *.pkl
 *.parquet
+notebooks/catboost_info/
 
 # ─── Jupyter checkpoints ───────────────────────────────────────
 notebooks/.ipynb_checkpoints/
