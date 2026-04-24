@@ -1,22 +1,30 @@
-# Core Data Manipulation
+# Core Data Manipulation & Scientific Computing
 pandas>=2.0.0
 numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+shap>=0.42.0
 
 # Machine Learning & Preprocessing
-scikit-learn>=1.3.0      # Cần bản >=1.3 để dùng sklearn.preprocessing.TargetEncoder
-category-encoders>=2.6.0 # Highly recommended cho Smoothed Target Encoding
+scikit-learn>=1.3.0
+category-encoders>=2.6.0
+statsmodels>=0.14.0
 
 # Hyperparameter Optimization
-optuna>=3.0.0            # Tối ưu hóa mảng scale_pos_weight như đã đề cập ở Bước 10
+optuna>=3.0.0
 
-# Gradient Boosting Frameworks (Tree-based)
+# Gradient Boosting Frameworks
 xgboost>=2.0.0
 lightgbm>=4.0.0
 catboost>=1.2.0
 
-# Jupyter và Notebook utils
-notebook>=7.0.0
+# Deep Learning (For 05_neural_network.ipynb)
+torch>=2.0.0
 
-# Optional: Framework cho Neural Networks (Nếu build NN ở notebook sau)
-# torch>=2.0.0
-# tensorflow>=2.10.0
+# Utilities & Jupyter
+tqdm>=4.65.0
+notebook>=7.0.0
+ipykernel
